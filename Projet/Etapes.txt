@@ -1,0 +1,42 @@
+Choix des technologies :
+
+Utilisez Java, Eclipse, JAX-RS, Jersey Jackson, et Tomcat pour développer votre application.
+Vous pouvez choisir d'utiliser une base de données MySQL ou une base de données en mémoire comme HSQLDB pour stocker les informations des films. Une collection orientée objet initiée au début de l'exécution du projet convient également.
+
+Conception de l'application :
+
+Créez une base de données (ou une structure de données en mémoire) pour stocker les informations des films, des salles de cinéma, des horaires, etc.
+Concevez l'architecture de l'application en utilisant JAX-RS pour créer les services REST.
+
+Premier service - Publication de nouveaux films :
+
+Créez une page web pour les créateurs de films, avec un système de login pour qu'ils puissent poster les détails d'un film. Les détails à inclure sont le titre, la durée, la langue (et les sous-titres), le réalisateur, les acteurs principaux, l'âge minimum requis, la date de début et de fin, le jour de la semaine, l'heure de début, et l'adresse de la salle de cinéma.
+Utilisez les services REST pour gérer la création et la mise à jour des films.
+
+Deuxième service - Afficher les films d'une ville donnée :
+
+Créez une page web en libre accès qui permet aux utilisateurs de choisir une ville et affiche tous les films proposés dans cette ville. Utilisez un service REST pour récupérer ces informations.
+
+Troisième service - Afficher les détails d'un film :
+
+Créez une page web pour chaque film qui affiche la liste des villes où le film passe, ainsi que tous les détails du film. Utilisez un service REST pour récupérer ces informations.
+
+Interface utilisateur et expérience utilisateur :
+
+Concevez une interface utilisateur conviviale pour les créateurs de films, les utilisateurs qui cherchent des films, et ceux qui veulent voir les détails d'un film.
+
+Tests et débogage :
+
+Effectuez des tests rigoureux pour vous assurer que l'application fonctionne correctement. Identifiez et corrigez les bogues.
+
+Déploiement :
+
+Déployez l'application sur un serveur Tomcat pour la rendre accessible aux utilisateurs.
+
+Documentation :
+
+Fournissez une documentation claire sur l'utilisation de l'application, y compris la façon de poster des films, de rechercher des films, etc.
+
+Maintenance :
+
+Assurez-vous de maintenir l'application et de résoudre les problèmes éventuels qui surviennent après le déploiement.

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allo_Mordjoanas</title>
+    <link rel="stylesheet" href="page.css" />
+    <script src="ajoutFilms.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">Bienvenue sur allo Mordjoanas</h1>
+        <a href="test.html">Retourner sur le site</a>
+    </header>
+
+
+
+    <form id="filmForm" class="form-container" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Informations générales</legend>
+
+            <div class="form-group">
+                <label for="titre">Titre :</label>
+                <input type="text" id="titre" name="titre" placeholder="Nom du film" required />
+            </div>
+
+            <div class="form-group">
+                <label for="duree">Durée :</label>
+                <input type="number" id="duree" name="duree" placeholder="Durée du film en minutes" required />
+            </div>
+
+            <div class="form-group">
+                <label for="langue">Langue :</label>
+                <input type="text" id="langue" name="langue" placeholder="Langue originale du film" required />
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Crédits</legend>
+
+            <div class="form-group">
+                <label for="realisateur">Réalisateur :</label>
+                <input type="text" id="realisateur" name="realisateur" placeholder="Réalisateur du film" required />
+            </div>
+
+            <div class="form-group">
+                <label for="acteurs">Acteurs Principaux :</label>
+                <input type="text" id="acteurs" name="acteurs" placeholder="Liste des acteurs principaux" required />
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informations supplémentaires</legend>
+
+            <div class="form-group">
+                <label for="age">Âge minimum requis :</label>
+                <input type="number" id="age" name="age" placeholder="Âge minimum requis pour le visionnage" required />
+            </div>
+
+            <div class="form-group">
+                <label for="ville">Ville :</label>
+                <input type="text" id="ville" name="ville" placeholder="Ville de projection" required />
+            </div>
+
+            <div class="form-group">
+                <label for="adresse">Adresse de la salle de cinéma :</label>
+                <input type="text" id="adresse" name="adresse" placeholder="Adresse complète de la salle de cinéma"
+                    required />
+            </div>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Affiche du film</legend>
+
+            <div class="form-group">
+                <label for="affiche">Affiche du film :</label>
+                <input type="file" id="affiche" name="affiche" accept="image/*" />
+                <!-- "accept" spécifie que seules les images sont autorisées -->
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dates et horaires</legend>
+
+            <div class="form-group">
+                <label for="dateDebut">Date de début de projection :</label>
+                <input type="date" id="dateDebut" name="dateDebut" required />
+            </div>
+        </fieldset>
+
+        <div class="form-group">
+            <!-- Ajout du bouton "Enregistrer" -->
+            <button type="submit">Enregistrer</button>
+        </div>
+
+    </form>
+</body>
+
+</html>

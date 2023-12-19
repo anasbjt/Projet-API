@@ -1,0 +1,43 @@
+Classe de Ressource pour les Films :
+
+Une classe annotée avec @Path pour gérer les opérations relatives aux films.
+Méthodes annotées avec @GET, @POST, @PUT, @DELETE, etc., pour gérer les opérations CRUD (Create, Read, Update, Delete) sur les films.
+Classe de Ressource pour les Créateurs de Films :
+
+Une classe annotée avec @Path pour gérer les opérations relatives aux créateurs de films.
+Méthodes annotées avec @GET, @POST, @PUT, @DELETE, etc., pour gérer les opérations sur les créateurs de films.
+Classe de Ressource pour les Cinémas :
+
+Une classe annotée avec @Path pour gérer les opérations relatives aux cinémas.
+Méthodes annotées avec @GET, @POST, @PUT, @DELETE, etc., pour gérer les opérations sur les cinémas.
+Classe de Ressource pour les Horaires de Films :
+
+Une classe annotée avec @Path pour gérer les horaires des films dans les différentes salles de cinéma.
+Méthodes pour récupérer les horaires de projection des films.
+Classe de Modèle de Données pour les Films :
+
+Une classe qui représente les informations d'un film, avec des propriétés telles que le titre, la durée, la langue, le réalisateur, les acteurs principaux, l'âge minimum requis, etc.
+
+Classe de Modèle de Données pour les Créateurs de Films :
+
+Une classe qui représente les créateurs de films, avec des propriétés telles que le nom, la biographie, etc.
+
+Classe de Modèle de Données pour les Cinémas :
+
+Une classe qui représente les cinémas, avec des propriétés telles que la ville, l'adresse, etc.
+
+Classe de Modèle de Données pour les Horaires de Films :
+
+Une classe qui représente les horaires de projection des films, avec des propriétés telles que le jour, l'heure de début, l'heure de fin, etc.
+
+Classe de Gestion de Données :
+
+Une classe pour interagir avec la base de données ou le système de stockage pour récupérer et stocker les informations sur les films, les créateurs, les cinémas, etc.
+
+Classe d'Application REST (Application Config) :
+
+Une classe qui configure votre application JAX-RS, spécifiant le package où se trouvent vos classes de ressource.
+
+Classe de Démarrage (Main Class) :
+
+Une classe qui démarre votre application REST en utilisant un serveur d'application (comme Tomcat) ou un conteneur JAX-RS.
